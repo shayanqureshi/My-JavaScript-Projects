@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: relative;
+    height: 500px;
+    /* border: 4px solid red; */
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+}
+
+.slide{
+    /* border: 4px solid black; */
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* overflow: hidden; */
+    transition: 1s;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.buttons button{
+    padding: 5px;
+    font-size: 15px;
+}
+
+
